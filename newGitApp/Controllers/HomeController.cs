@@ -15,8 +15,7 @@ namespace newGitApp.Controllers
 
         public IActionResult Index()
         {
-
-            return View();
+            return Content("Second branch code is active");
         }
 
         public IActionResult Privacy()
