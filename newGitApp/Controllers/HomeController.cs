@@ -15,8 +15,8 @@ namespace newGitApp.Controllers
 
         public IActionResult Index()
         {
-
-            return View();
+            return Content("This is from First Brach");
+            //return View();
         }
 
         public IActionResult Privacy()
